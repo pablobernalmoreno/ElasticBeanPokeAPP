@@ -34,6 +34,7 @@ function App() {
   return (
     <div className="App">
       <h1>Bienvenido a la PokeApp, por favor elije a tu Pókemon Favorito</h1>
+      <h2>Si estás viendo este título es porque el Pipeline funciona :3</h2>
       <form>
         <select
           onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
